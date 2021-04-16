@@ -1,0 +1,32 @@
+{
+  "name": "goit-hw-node-2-lesson2-express",
+  "version": "1.0.0",
+  "description": "1. создаем package.json - npm init -y\r 2. package.json добавляем \"type\": \"module\" для импортов\r 3. npm install --save-dev nodemon\r 4. npm install commander",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "start:dev": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galka-travinskaya/goit-hw-node-2-lesson2-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galka-travinskaya/goit-hw-node-2-lesson2-express/issues"
+  },
+  "homepage": "https://github.com/galka-travinskaya/goit-hw-node-2-lesson2-express#readme",
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "express-validator": "6.10.0",
+    "got": "11.8.2",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.7"
+  }
+}
