@@ -37,3 +37,4 @@
 26. 1.04 валидация данных [express-validator] - [https://express-validator.github.io/docs/]
 27. 1.18 heroku
 28. 1.20 для примера репа с проектом на всех языках [https://github.com/gothinkster/realworld]
+29. 1.34 делаем правильно доступ [https://devcenter.heroku.com/articles/config-vars] (heroku config:set API_KEY=9a0b947cdf6d17db685b22733c9b8b80) - закидывает через терминал на хероку ключ
